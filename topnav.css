@@ -1,0 +1,38 @@
+.topnav { 
+  background: rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.topnav a {
+  margin-top: 10px;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding-right: 30px;
+
+  margin: 30px 0 30px 0;
+
+  text-decoration: none;
+  font-size: 17px;
+
+  transition: 0.25s;
+}
+.topnav a:hover {
+  color: rgb(160, 160, 160);
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
